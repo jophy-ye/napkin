@@ -57,7 +57,7 @@ In practice, we will basically always use generation for algebras.
 \end{example}
 
 \begin{definition}
-	A \vocab{pre-measure} $\mu_0$ on a algebra $\SA_0$
+	A \vocab{pre-measure} $\mu_0$ on an algebra $\SA_0$
 	is a function $\mu_0 \colon \SA_0 \to [0, +\infty]$
 	which satisfies the axioms
 	\begin{itemize}
@@ -329,7 +329,7 @@ at least satisfies the pre-measure axioms.
 		= \sum_n \left( \mu_0(A_n \cap A) + \mu_0(A_n \setminus A) \right)
 		\ge \mu^\ast(E \cap A) + \mu^\ast(E \setminus A)  \]
 	with the first equality being the definition of pre-measure
-	on $\SA_0$, the second just being by definition of $\mu^\ast$
+	on $\SA_0$, and the inequality being by definition of $\mu^\ast$
 	(since $A_n \cap A$ certainly covers $E \cap A$, for example).
 	Thus $\mu^\ast(E) + \eps \ge \mu^\ast(E \cap A) + \mu^\ast(E \setminus A)$.
 	Since the inequality holds for any $\eps > 0$, we're done.
@@ -440,7 +440,7 @@ Of course, now that we've gotten all the way here,
 if we actually want to \emph{compute} any measures,
 we can mostly gleefully forget about how we actually constructed
 the measure and just use the properties.
-The hard part was to showing that there \emph{is}
+The hard part was to show that there \emph{is}
 a way to assign measures consistently;
 actually figuring out what that measure's value is
 \emph{given that it exists} is often much easier.
